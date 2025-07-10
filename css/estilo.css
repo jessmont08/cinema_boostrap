@@ -1,0 +1,11 @@
+.carousel-item img {
+  display: block;
+  margin: 0 auto;
+  width: 30%; 
+}
+
+main {
+  margin-top: 2rem;   
+  margin-bottom: 2rem; 
+  background-color: rgb(230, 230, 230);
+}
