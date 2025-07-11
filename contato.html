@@ -11,11 +11,53 @@
         crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        
+    <header class="bg-dark text-light py-3 shadow-sm">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a href="home.html" class="text-light text-decoration-none">
+          <h1 class="h3 mb-0 fw-bold">Cineplexus</h1>
+        </a>
+        <nav>
+          <ul class="list-unstyled d-flex mb-0 gap-4">
+            <li><a href="index.html" class="text-light text-decoration-none fw-semibold">Home</a></li>
+            <li><a href="cartaz.html" class="text-light text-decoration-none fw-semibold">Cartaz</a></li>
+            <li><a href="termodeuso.html" class="text-light text-decoration-none fw-semibold">Termo de Uso</a></li>
+            <li><a href="contato.html" class="text-light text-decoration-none fw-semibold">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-        
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col">
+            <h1 class="display-2 text-center">Nos contate!</h1>
+            <hr class="mt-0 mb-4">
+          </div>
+        </div>
+        <section class="container my-5 bg-dark text-light p-4 rounded" style="max-width: 600px;">
+          <h2 class="mb-4 text-center">Contato</h2>
+          <form>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome completo</label>
+              <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="assunto" class="form-label">Assunto</label>
+              <input type="text" class="form-control" id="assunto" placeholder="Motivo do contato" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="5" placeholder="Escreva sua mensagem aqui" required></textarea>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-light">Enviar</button>
+            </div>
+          </form>
+        </section>
     </main>
     <footer class="bg-dark text-light py-4">
   <div class="container">
