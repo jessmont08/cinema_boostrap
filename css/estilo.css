@@ -36,3 +36,27 @@ form textarea:focus {
   outline: none !important;
 }
 
+.coupon-card {
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.discount {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.coupon-code {
+  display: inline-block;
+  background: #f8f9fa;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+main {
+  margin: 5%;
+}
